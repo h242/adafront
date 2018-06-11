@@ -1,0 +1,108 @@
+* {
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 1em;
+	color: #333;
+}
+body {
+	background-color: #fff;
+}
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	align-self: center;
+	margin: 0;
+}
+h3 {
+	font-size: 1em;
+	float: left;
+	display: block;
+	padding: 0 0.2em 0 0;
+}
+form, fieldset {
+	border-style: none;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.text {
+	text-align: center;
+}
+.inputs {
+	justify-content: center;
+	align-self: center;
+	text-align: center; 
+
+}
+.infoJugador, .infoJuego {
+	width: 100%;
+	display: flex;
+	margin: 0;
+	justify-content: center;
+}
+.info {
+	float: left;
+	padding: 0 0.5em 0 0;
+}
+
+#tablero {
+	width: 650px;
+	margin: 0 auto;
+	align-self: center;
+}
+.detalles {
+	width: 650px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.tile {
+	list-style: none;
+	margin: 0 0.2em 0.2em 0;
+	float: left;
+}
+.size {
+	width: 150px;
+	height: 150px;
+}
+.dorso {
+	height: 150px;
+	width: 150px;
+	background-color: #ddd; 
+}
+
+.cta {
+	background-color: #333;
+	border: none;
+	font-size: 1.5em;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    width: 80%;
+    margin: 2em 0;
+}
+.reset {
+	background-color: #ccc;
+	border: none;
+    font-size: 1em;
+    color: #222;
+    padding: 0.5em 0.2em;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    width: 50%;
+    margin: 2em 0;
+}

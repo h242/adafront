@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> TP 3 Memotest</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Memotest: Zorro edition</h1>
+		<div class="detalles">
+			<p class="text">
+				Hacé click en una ficha. Buscá su compañera.<br/> Formá todos los pares que puedas en la menor cantidad de turnos.
+			</p>
+		</div>
+		<form action="jugar.html">
+			<fieldset>
+				<div class="detalles">
+					<input class="inputs" type="text" id="jugador" placeholder="Ingresá tu nombre" required="true" /><br/>
+					<label id="dif" class="inputs">Dificultad<br/>
+						<input class="dificultad" type="radio" name="dificultad" value="facil" /> Fácil
+						<input class="dificultad" type="radio" name="dificultad" value="media" /> Media
+						<input class="dificultad" type="radio" name="dificultad" value="dificil" /> Difícil
+					</label>
+					<input id="start" class="cta" type="submit" value="JUGAR" />	
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script type="text/javascript" src="js/jquery3.min.js"> </script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>
