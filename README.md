@@ -2,6 +2,6 @@
 Repo con ejercicios en clase y TPs de ADA.
 
 Dudas, contrataciones y amenazas: 
-https://twitter.com/jimepianito
+https://twitter.com/pianitoforte
 
 
